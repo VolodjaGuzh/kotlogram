@@ -7,8 +7,6 @@ targetCompatibility = '1.7'
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
 
-    compile project(':api')
-
     compile 'org.apache.commons:commons-lang3:3.4'
     compile 'com.google.code.gson:gson:2.7'
     compile 'commons-io:commons-io:2.5'

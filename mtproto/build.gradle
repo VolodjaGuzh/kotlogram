@@ -7,7 +7,7 @@ targetCompatibility = '1.7'
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':tl')
+    compile project(':kotlogram:tl')
     implementation group: 'org.bouncycastle', name: 'bcprov-jdk15to18', version: '1.70'
     compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 
